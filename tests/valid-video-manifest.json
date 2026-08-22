@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "test-project",
+    "name": "Validator Fixture",
+    "video_version": "v1",
+    "status": "proof"
+  },
+  "brief": {
+    "path": "brief/video-production-brief.md",
+    "script_version": "v1",
+    "approval_owner": "Test Approver"
+  },
+  "delivery": {
+    "aspect_ratio": "16:9",
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "target_duration_seconds": 1,
+    "video_codec": "h264",
+    "audio_codec": "aac"
+  },
+  "audio_package": {
+    "version": "v1",
+    "manifest_path": "records/audio-manifest.json",
+    "master_path": "audio/master/test.wav",
+    "master_sha256": "test-fixture",
+    "approved": true
+  },
+  "characters": [],
+  "brand_assets": [],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "source": "generated test fixture"
+    }
+  ],
+  "provider_jobs": [],
+  "source_and_licence_records": [],
+  "assembly": {
+    "owner": "Test Assembly Owner",
+    "tool": "FFmpeg",
+    "project_path": "assembly/test-project",
+    "template_version": "test"
+  },
+  "cost": {
+    "currency": "USD",
+    "estimated": 0,
+    "actual": 0
+  },
+  "proofs": ["proofs/test-v1.mp4"],
+  "quality_control": {
+    "technical_passed": true,
+    "visual_passed": true,
+    "script_match_passed": true,
+    "caption_passed": true,
+    "identity_passed": true,
+    "brand_passed": true,
+    "notes": "Synthetic validator fixture only."
+  },
+  "approval": {
+    "proof_version": "v1",
+    "approved_by": "Test Approver",
+    "approved_at": "2026-08-21T18:00:00-06:00",
+    "publication_authorized": false
+  },
+  "final_exports": ["exports/test-final.mp4"]
+}
