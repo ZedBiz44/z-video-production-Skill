@@ -1,5 +1,4 @@
 interface:
   display_name: "Z Video Production"
-  short_description: "Create approved end-to-end video productions"
-  default_prompt: "Use $z-video-production to turn this approved brief into a proof-ready video project."
-
+  short_description: "Create videos with proportionate production effort"
+  default_prompt: "Use $z-video-production to make this video with the simplest reliable workflow."
