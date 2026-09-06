@@ -17,6 +17,29 @@ Use this skill for video planning, generation, editing, assembly, revision, revi
 - Before paid generation, verify the callable route, required inputs, current limits, and material estimated cost. Inspect the live model schema when the provider exposes or requires one. Do not confuse documented capability with a working connection.
 - A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, or editable sources only when their value justifies the effort.
 
+## Deliver The Requested Media Type
+
+- If the user requests a video or video clip, completion requires a playable video file. An image, audio file, production plan, provider link, or promise to check later is not a substitute.
+- Save completed provider media into the project before reporting success. Return the actual playable file through the channel's supported media attachment route; treat a URL as backup access only.
+- If the requested media cannot be produced, report the real job status and failure. Do not disguise a fallback asset as the requested deliverable.
+- For delayed jobs, keep the real job reference, use the runtime's supported background or status-check route, and check provider history before retrying. Do not abandon the job or submit a duplicate merely because generation is slow.
+
+## Use Audio First When Timing Or Voice Matters
+
+- Lock the spoken script before producing narration, lip-sync, captions, or final scene timing.
+- Use `z-audio-production` to create the full approved dry narration when voice identity, exact wording, performance, or repeatability matters.
+- Treat that full narration master as the final timing and performance source. Cut exact scene extracts from it; do not generate unrelated scene narrations that can drift or overlap.
+- Give a talking-avatar or lip-sync route the exact scene extract when it requires audio. B-roll does not need to speak.
+- Do not get stuck trying to force a video provider to return a silent clip. Generate the usable visual clip, then remove or mute its returned audio during assembly. Use the approved narration master in the final mix.
+
+## Use Remotion And FFmpeg Deliberately
+
+- Use Remotion for multi-scene editable assembly, captions, titles, lower thirds, logos, offers, URLs, calls to action, layout, timing, transitions, and repeatable revisions.
+- Before changing a Remotion project, read `remotion-best-practices`, then load only the relevant official Remotion skill such as `remotion-markup`, `remotion-captions`, or `remotion-render`.
+- Use FFmpeg for practical media preparation and inspection such as extracting or muting audio, trimming, conversion, concatenation when simple, frame capture, and final stream validation.
+- Treat generated video as source material rather than a finished branded edit when exact text, consistent captions, multiple scenes, or future revisions matter.
+- Read [Remotion production guidance](references/remotion-production.md) for an audio-led multi-scene edit or material Remotion revision.
+
 ## Preserve What Should Not Change
 
 - Keep approved audio or visual assets stable when changing an unrelated layer. Do not silently change an approved script, timing, voice, identity, offer, call to action, brand treatment, provider, duration, aspect ratio, or delivery format. Revise the smallest part that solves the problem.
@@ -46,5 +69,6 @@ Use this skill for video planning, generation, editing, assembly, revision, revi
 
 - Inspect the actual completed render across its full timeline using playback, video analysis, or an equivalent visual-and-audio review. Metadata-only inspection does not prove the video is good.
 - Confirm it opens, plays, satisfies the requested content and format, and has no obvious visual, audio, timing, freeze, corruption, or truncation failure. Check delivery-specific details such as duration, aspect ratio, caption accuracy and synchronization, identity, brand treatment, text readability, safe areas, or platform compatibility when they matter.
-- Report the output file or URL, whether it is a working draft, review draft, or approved final, meaningful cost, and any unresolved limitation. Include provider, model, and job ID when they materially help recovery or accountability.
+- Report and attach the actual output file when the channel supports attachments, whether it is a working draft, review draft, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
+
