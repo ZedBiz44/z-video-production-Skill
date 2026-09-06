@@ -20,6 +20,29 @@ Mix routes only when the result benefits. A preference or configured model is no
 - Treat the approved narration as the timing source and final narration track.
 - Cut scene extracts from the master, mute conflicting embedded avatar audio, and do not regenerate approved lines for new poses or scenes.
 
+## Use A Repeatable Multi-Scene Sequence
+
+For an audio-led multi-scene video:
+
+- lock the script and approve one full dry narration master;
+- use the narration duration to set scene timing;
+- cut exact scene narration extracts from the approved master;
+- create or collect each scene's visual source;
+- use the exact scene extract for talking-avatar or lip-sync work when required;
+- remove or mute audio returned inside source clips;
+- assemble the source clips, approved master, captions, graphics, music, and effects in an editable timeline;
+- render a proof, review the full timeline, revise only the failed layer, and then render the delivery file.
+
+Do not ask separate scene generators to reinvent the voice or wording. Do not get stuck trying to force provider-generated clips to be silent; strip their audio before final assembly.
+
+## Select A Scene Profile
+
+- **Talking avatar:** use the approved identity reference and exact narration extract; check mouth movement, identity, hands, clothing, and background; keep the approved master as final audio.
+- **Generated B-roll or hero shot:** describe one clear action, setting, camera behavior, lighting, and style; avoid generated words, logos, prices, and calls to action.
+- **Stock, owned footage, or screen recording:** prefer this route when realism, factual accuracy, product demonstration, speed, or repeatable control matters more than novel generation.
+
+Use a consistent visual reference, aspect ratio, color direction, and camera language across related scenes. A negative phrase such as “do not look AI-generated” is not a useful visual direction by itself.
+
 ## Run Paid Providers Deliberately
 
 - Confirm that the provider route is callable in the current runtime.
@@ -28,6 +51,8 @@ Mix routes only when the result benefits. A preference or configured model is no
 - Poll the real job and check provider history before retrying or abandoning a delayed request.
 - Save the completed output into the project and retain the job details needed for recovery or accountability.
 - Do not silently swap a requested or approved provider, model, voice, identity, or format after failure.
+
+For paid or multi-scene work, keep a light scene-and-job record containing the scene ID, intended duration, source type, prompt or source reference, provider, model, job ID, status, estimated or actual cost, downloaded file, and review result. This may be a project table, Markdown file, or JSON record; do not create unnecessary paperwork for a disposable one-off clip.
 
 ## Choose Useful Controls
 
@@ -57,4 +82,5 @@ Do not require every control and do not invent a universal manifest. Store proje
 - Use a proof before committing substantial cost or producing a client-facing final.
 - Keep enough source and decision evidence for the expected revision, handoff, rights, or approval need—no more.
 - If multiple people or agents contribute, agree on ownership and file locations only to the extent needed to avoid lost assets or conflicting edits.
-- Use any suitable available assembly and inspection tools. Do not require Remotion, FFmpeg, a manifest, or a particular provider when another route meets the request better.
+- Use Remotion when editable multi-scene design or repeatable revision matters. Use FFmpeg for preparation and technical verification. Do not force either tool onto a simpler route that already meets the request.
+
