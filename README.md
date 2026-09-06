@@ -20,7 +20,8 @@ This repository is the technical source of truth for `z-video-production`, a dec
 
 - `SKILL.md` is the authoritative runtime guide and defines the skill contract.
 - `agents/openai.yaml` provides runtime discovery metadata for supported OpenAI-compatible environments.
-- `references/` contains focused guidance that the runtime instructions may load when needed.
+- `references/` contains focused advanced-production and Remotion workflow guidance that the runtime instructions may load when needed.
+- `tests/test-prompts.md` records the representative fresh-session behavior checks used before release.
 
 ## Validation and Deployment
 
@@ -33,3 +34,4 @@ Respect consent, rights, brand constraints, and approval boundaries. Preserve ap
 ## Status and Contributions
 
 Keep this README aligned with the actual skill contract and file structure. Make changes through version control, validate them before release, and document material deployment or governance decisions in the repository’s approved records.
+
