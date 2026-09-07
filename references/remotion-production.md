@@ -41,6 +41,8 @@ Use this reference when Remotion is the editable assembly or revision system. Th
 - Render a low-cost proof before committing to a final client-facing export when the edit is complex or expensive.
 - Review the beginning, every scene change, captions, audio synchronization, identity, exact text, and ending.
 - Validate the final video and audio streams with FFmpeg or FFprobe.
-- Save the editable Remotion project and versioned MP4 in the project folder.
+- Save the editable Remotion project in `Assembly/` and the versioned MP4 in `Proofs/` or `Final/` within the project's **Video-Creation** Shared Drive folder: https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA.
+- Render and inspect from local working storage when practical, then upload and verify the retained files in the Shared Drive. Do not use a temporary local path as the final handoff location.
 - Attach the playable MP4 through the conversation channel. A path, provider URL, or render log alone is not delivery.
+
 
