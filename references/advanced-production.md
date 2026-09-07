@@ -31,9 +31,9 @@ For an audio-led multi-scene video:
 - use the exact scene extract for talking-avatar or lip-sync work when required;
 - remove or mute audio returned inside source clips;
 - assemble the source clips, approved master, captions, graphics, music, and effects in an editable timeline;
-- render a proof, review the full timeline, revise only the failed layer, and then render the delivery file.
+- render a proof, review the full timeline, hand off the complete playable Review Draft for an independent creative critique when required, revise only the failed layer, and then render the delivery file.
 
-Do not ask separate scene generators to reinvent the voice or wording. Do not get stuck trying to force provider-generated clips to be silent; strip their audio before final assembly.
+Do not ask separate scene generators to reinvent the voice or wording. Do not get stuck trying to force provider-generated clips to be silent; strip their audio before final assembly. Read [video-critique handoff guidance](video-critique-handoff.md) before handing off a Structured or Managed video.
 
 ## Select A Scene Profile
 
@@ -64,7 +64,7 @@ Add only the controls that reduce a real risk or future cost. Depending on the j
 - an editable assembly project and retained sources;
 - provider job, cost, licence, or approval records;
 - a proof before final-quality generation or external delivery;
-- targeted technical, visual, identity, caption, or brand review.
+- targeted technical, visual, identity, caption, brand, or companion creative critique review.
 
 Do not require every control and do not invent a universal manifest. Store project-specific information in the project using the structure that best serves its likely users.
 
@@ -75,7 +75,8 @@ Do not require every control and do not invent a universal manifest. Store proje
 - Check material text and captions for readability, synchronization, and platform safe areas.
 - Confirm the usage rights for supplied, owned, stock, and generated media; local possession alone does not establish a licence.
 - Retain approved media, never overwrite the only original or approved master, and replace only the failed or changed layer.
-- State the useful handoff status: **Working Draft**, **Review Draft**, **Approved Master**, or **Published/Delivered**. Do not imply approval or delivery that did not occur.
+- State the useful handoff status: **Working Draft**, **Review Draft**, **proposed Approved Master**, or **Published/Delivered**. Do not imply authorized approval or delivery that did not occur.
+- Treat an independent critique verdict as creative input, not authority to change approved content, spend money, publish, or deliver. Production applies only bounded approved changes.
 
 ## Coordinate Larger Jobs
 
@@ -83,4 +84,4 @@ Do not require every control and do not invent a universal manifest. Store proje
 - Keep enough source and decision evidence for the expected revision, handoff, rights, or approval need—no more.
 - If multiple people or agents contribute, agree on ownership and file locations only to the extent needed to avoid lost assets or conflicting edits.
 - Use Remotion when editable multi-scene design or repeatable revision matters. Use FFmpeg for preparation and technical verification. Do not force either tool onto a simpler route that already meets the request.
-
+- After production applies critique findings, render the full revised video for targeted critique recheck. Once the creative verdict passes, validate the exact final export for technical and delivery-facing requirements before asking the authorized approver to release it.

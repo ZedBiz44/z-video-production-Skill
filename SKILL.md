@@ -1,13 +1,13 @@
 ---
 name: z-video-production
-description: "Plan, create, edit, review, or deliver videos using the lightest reliable workflow and available media tools."
+description: "Plan, create, edit, assemble, technically validate, revise, or deliver videos using the lightest reliable workflow. Use for production work, not an independent creative critique."
 ---
 
 # Z Video Production
 
 Make the requested video without adding process the job does not need. Treat this skill as a decision framework, not a fixed production sequence.
 
-Use this skill for video planning, generation, editing, assembly, revision, review, or delivery. Do not use it for standalone audio, still images, logos, or publishing unless that work is part of the video assignment.
+Use this skill for video planning, generation, editing, assembly, revision, technical inspection, or delivery. Do not use it for an independent creative-quality verdict, a successful-video breakdown, or a reference comparison. Route those requests to `z-video-critique` when it is available. Do not use this skill for standalone audio, still images, logos, or publishing unless that work is part of the video assignment.
 
 ## Choose The Lightest Reliable Route
 
@@ -15,7 +15,7 @@ Use this skill for video planning, generation, editing, assembly, revision, revi
 - Choose the simplest suitable combination of generation, recording, stock or owned media, editing, assembly, and inspection.
 - Use the user's requested product or provider when feasible. Otherwise choose from tools that are genuinely available in the current runtime.
 - Before paid generation, verify the callable route, required inputs, current limits, and material estimated cost. Inspect the live model schema when the provider exposes or requires one. Do not confuse documented capability with a working connection.
-- A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, or editable sources only when their value justifies the effort.
+- A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, editable sources, or a companion critique only when their value justifies the effort.
 
 ## Deliver The Requested Media Type
 
@@ -54,8 +54,11 @@ Use this skill for video planning, generation, editing, assembly, revision, revi
 ## Scale Up Only When The Job Earns It
 
 - Use more structure when the production is expensive, complex, repeatable, identity-sensitive, rights-sensitive, client-facing, revision-prone, or split across people or agents.
-- Possible controls include a brief, shot list, approved audio, identity references, provider or rights records, proof render, editable project, or completion evidence. Use only the controls that reduce a real risk or future cost.
+- Possible controls include a brief, shot list, approved audio, identity references, provider or rights records, proof render, editable project, companion creative critique, or completion evidence. Use only the controls that reduce a real risk or future cost.
 - Read [Advanced production guidance](references/advanced-production.md) when meaningful spend, recurring identity or voice, uncertain rights, client or public delivery, multi-worker handoff, or likely revisions create material risk.
+- For a new or meaningfully edited production that uses those added controls, hand off the first complete playable **Review Draft** to `z-video-critique` when it is available. Use the shared packet and revision rules in [video-critique handoff guidance](references/video-critique-handoff.md).
+- A disposable clip may use a basic production review when an independent critique would add no practical value. A critique request by itself does not authorize production changes.
+- If the companion is unavailable, record: **Basic video review completed; ZedBiz video critique companion unavailable.** Do not treat this fallback as sufficient for work that explicitly requires full critique or is costly, high-risk, client-facing, or publication-ready.
 
 ## Respect Authorization Boundaries
 
@@ -64,11 +67,13 @@ Use this skill for video planning, generation, editing, assembly, revision, revi
 - Confirm permission and suitable usage rights before cloning or imitating a real person or using third-party media. Possessing a local file does not prove commercial usage rights.
 - Check provider job history and real status before retrying or abandoning a slow or timed-out paid request. Do not repeatedly spend against the same failure; after two failed paid attempts for the same asset, stop and report unless further spend is authorized.
 - Never invent provider output, job IDs, a completed render, or an inspection result. Do not silently substitute a materially different provider, model, voice, identity, or format to bypass a failure.
+- A critique verdict is not approval, client delivery, publication authority, or proof that untested rights, platform, accessibility, or technical requirements pass. Only the authorized approver can approve those actions.
 
 ## Finish Against The Request
 
 - Inspect the actual completed render across its full timeline using playback, video analysis, or an equivalent visual-and-audio review. Metadata-only inspection does not prove the video is good.
 - Confirm it opens, plays, satisfies the requested content and format, and has no obvious visual, audio, timing, freeze, corruption, or truncation failure. Check delivery-specific details such as duration, aspect ratio, caption accuracy and synchronization, identity, brand treatment, text readability, safe areas, or platform compatibility when they matter.
-- Report and attach the actual output file when the channel supports attachments, whether it is a working draft, review draft, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
+- Treat a production review as a safeguard, not a substitute for the independent creative verdict where the companion critique is required. After a critique finding, apply only the stated correction, render a new complete playable version, and return it for targeted recheck. Do not reopen settled preferences or mark unresolved work ready because a normal correction limit is reached.
+- Run the production technical inspection on the exact final export after creative review. Rendering, compression, cropping, caption generation, and final audio mixing can introduce failures that were absent from the Review Draft.
+- Report and attach the actual output file when the channel supports attachments, whether it is a Working Draft, Review Draft, proposed Approved Master, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
-
