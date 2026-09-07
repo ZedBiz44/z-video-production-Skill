@@ -66,7 +66,7 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Use more structure when the production is expensive, complex, repeatable, identity-sensitive, rights-sensitive, client-facing, revision-prone, or split across people or agents.
 - Possible controls include a brief, shot list, approved audio, identity references, provider or rights records, proof render, editable project, companion creative critique, or completion evidence. Use only the controls that reduce a real risk or future cost.
 - Read [Advanced production guidance](references/advanced-production.md) when meaningful spend, recurring identity or voice, uncertain rights, client or public delivery, multi-worker handoff, or likely revisions create material risk.
-- For a new or meaningfully edited production that uses those added controls, hand off the first complete playable **Review Draft** to `z-video-critique` when it is available. Use the shared packet and revision rules in [video-critique handoff guidance](references/video-critique-handoff.md).
+- For every new or meaningfully edited Structured or Managed video, hand off the first complete playable **Review Draft** to `z-video-critique` when it is available. Use the shared packet, separate-review route, and revision rules in [video-critique handoff guidance](references/video-critique-handoff.md).
 - A disposable clip may use a basic production review when an independent critique would add no practical value. A critique request by itself does not authorize production changes.
 - If the companion is unavailable, record: **Basic video review completed; ZedBiz video critique companion unavailable.** Do not treat this fallback as sufficient for work that explicitly requires full critique or is costly, high-risk, client-facing, or publication-ready.
 
@@ -87,4 +87,5 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Run the production technical inspection on the exact final export after creative review. Rendering, compression, cropping, caption generation, and final audio mixing can introduce failures that were absent from the Review Draft.
 - Report and attach the actual output file when the channel supports attachments, whether it is a Working Draft, Review Draft, proposed Approved Master, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
+
 
