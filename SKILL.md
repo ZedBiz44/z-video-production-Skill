@@ -1,6 +1,6 @@
 ---
 name: z-video-production
-description: "Plan, create, edit, assemble, technically validate, revise, or deliver videos using the lightest reliable workflow. Use for production work, not an independent creative critique."
+description: "Create, edit, assemble, validate, revise, or deliver videos with the lightest reliable workflow. Use for production, not independent creative critique."
 ---
 
 # Z Video Production
@@ -20,9 +20,19 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 ## Deliver The Requested Media Type
 
 - If the user requests a video or video clip, completion requires a playable video file. An image, audio file, production plan, provider link, or promise to check later is not a substitute.
-- Save completed provider media into the project before reporting success. Return the actual playable file through the channel's supported media attachment route; treat a URL as backup access only.
+- Save completed provider media into the Shared Drive project folder before reporting success. Return the actual playable file through the channel's supported media attachment route; treat a URL as backup access only.
 - If the requested media cannot be produced, report the real job status and failure. Do not disguise a fallback asset as the requested deliverable.
 - For delayed jobs, keep the real job reference, use the runtime's supported background or status-check route, and check provider history before retrying. Do not abandon the job or submit a duplicate merely because generation is slow.
+
+## Store Every Retained Asset In The Shared Production Drive
+
+- Use the **Video-Creation** Google Shared Drive as the permanent storage location for all ZedBiz audio and video production: [open the Shared Drive](https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA).
+- Treat Shared Drive ID `0AAlVr-SRjSeQUk9PVA` as the fixed root. Do not save the only retained copy in a personal My Drive, provider account, chat thread, or temporary VPS folder.
+- Store each job under `Ventures/<Venture>/Projects/<YYYY-MM-DD>-<Project-Name>/` with the folders needed from `Brief-And-Script/`, `Audio/`, `Visuals/`, `Assembly/`, `Proofs/`, `Final/`, and `Records/`.
+- Put B-roll in `Visuals/B-Roll/`, generated clips in `Visuals/Generated-Clips/`, presenter or avatar clips in `Visuals/Presenter-Clips/`, and images or brand assets in `Visuals/Images-And-Brand/`.
+- Put editable Remotion, CapCut, Premiere, or equivalent project material in `Assembly/`; review versions in `Proofs/`; and approved delivery files in `Final/`.
+- Local agent or VPS storage is temporary working space. Render and inspect locally when practical, then upload retained inputs, editable sources, proofs, and final files to the Shared Drive and verify them there.
+- If the venture or project folder does not exist, create it under the fixed Shared Drive root when ordinary folder creation is authorized. Stop if the correct venture, permissions, or destination is unclear.
 
 ## Use Audio First When Timing Or Voice Matters
 
@@ -77,3 +87,4 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Run the production technical inspection on the exact final export after creative review. Rendering, compression, cropping, caption generation, and final audio mixing can introduce failures that were absent from the Review Draft.
 - Report and attach the actual output file when the channel supports attachments, whether it is a Working Draft, Review Draft, proposed Approved Master, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
+
