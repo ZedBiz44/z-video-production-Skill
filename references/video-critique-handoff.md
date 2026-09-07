@@ -8,6 +8,12 @@ Use `z-video-critique` for the first complete playable Review Draft when the wor
 
 If the requester explicitly requires a full critique, or the work is costly, high-risk, client-facing, or publication-ready, do not release it without the companion critique. If `z-video-critique` is unavailable, complete the basic review that production can perform and record exactly: **Basic video review completed; ZedBiz video critique companion unavailable.** That fallback does not close a required companion-critique gate.
 
+## Use A Separate Critique Review
+
+An independent critique must occur in a separate fresh critique session or with a different authorized reviewing agent. Production prepares the playable Review Draft and review packet, then the requester, VA, or approved workflow starts the separate review with `z-video-critique`. Production must not approve its own creative work by merely rereading it inside the same production run.
+
+Until an automatic handoff route has been built and verified, do not claim that production invoked or transferred work to another skill automatically. State that the review packet is ready, identify where the playable file is stored, and give the requester the exact separate critique request to send.
+
 ## Prepare The Review Packet
 
 Send the actual complete playable **Review Draft**, not a path, render log, thumbnail, description, or selected still frames. Supply the most useful available information without delaying an ordinary review:
@@ -43,4 +49,5 @@ Keep the Review Draft, corrective versions, proposed Approved Master, final expo
 
 ## Verify The Integration Before Release
 
-In a fresh session, test one representative Structured or Managed video. Confirm that production sends the playable Review Draft and required context; critique returns a bounded timestamped result; production corrects only the affected layer; critique closes fixed findings without inventing a new round; production validates the final export; and only the authorized approver permits client delivery or publication.
+In separate fresh production and critique sessions, test one representative Structured or Managed video. Confirm that production prepares the playable Review Draft and required context; the requester, VA, or approved workflow starts the critique review; critique returns a bounded timestamped result; production corrects only the affected layer; critique closes fixed findings without inventing a new round; production validates the final export; and only the authorized approver permits client delivery or publication.
+
