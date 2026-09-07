@@ -85,3 +85,13 @@ Do not require every control and do not invent a universal manifest. Store proje
 - If multiple people or agents contribute, agree on ownership and file locations only to the extent needed to avoid lost assets or conflicting edits.
 - Use Remotion when editable multi-scene design or repeatable revision matters. Use FFmpeg for preparation and technical verification. Do not force either tool onto a simpler route that already meets the request.
 - After production applies critique findings, render the full revised video for targeted critique recheck. Once the creative verdict passes, validate the exact final export for technical and delivery-facing requirements before asking the authorized approver to release it.
+
+## Shared Storage And Handoff
+
+- Use the **Video-Creation** Google Shared Drive as the permanent production library: https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA.
+- Store each project under `Ventures/<Venture>/Projects/<YYYY-MM-DD>-<Project-Name>/`.
+- Use `Brief-And-Script/`, `Audio/`, `Visuals/`, `Assembly/`, `Proofs/`, `Final/`, and `Records/` as needed. Do not create empty folders that the job will not use.
+- Contributors upload approved assets to the matching project folder. The assembly owner uses those Drive copies and preserves one approved version of every retained input.
+- Keep provider links and local VPS paths as recovery details only. They do not replace the Shared Drive copy.
+- Record the exact project-folder ID and link in the assignment handoff and completion record.
+
