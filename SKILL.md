@@ -17,6 +17,14 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Before paid generation, verify the callable route, required inputs, current limits, and material estimated cost. Inspect the live model schema when the provider exposes or requires one. Do not confuse documented capability with a working connection.
 - A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, editable sources, or a companion critique only when their value justifies the effort.
 
+## Route Analysis And Independent Critique
+
+- Use `z-video-analysis` when the assignment requires understanding a reference video, tutorial, demonstration, or screen recording and extracting information, actions, claims, or timestamped evidence. Do this before the dependent production decision. Do not add an analysis pass to every render by default.
+- Use `z-video-critique` for creative-quality judgments, readiness reviews, successful-video breakdowns, and creative comparisons. When both information analysis and creative judgment are needed, pass the source, findings, and inspection limits from analysis to critique; analysis alone is not a creative verdict.
+- Read [video-critique handoff guidance](references/video-critique-handoff.md) for review ownership, scoped checkpoints, the review packet, and correction rechecks. A reviewer may read this production skill for context without becoming authorized to edit, generate, spend, or publish.
+- Verify the needed companion is available in the active runtime. If analysis is unavailable, state the missing route and provide only findings supported by the available tools; stop dependent decisions when the missing evidence could change them. Follow the required-critique stop rule below when critique is unavailable.
+- Report the exact media version, coverage, methods, and unchecked areas. Skill installation, a transcript, selected frames, or a successful decode does not prove complete visual-and-audio inspection.
+
 ## Deliver The Requested Media Type
 
 - If the user requests a video or video clip, completion requires a playable video file. An image, audio file, production plan, provider link, or promise to check later is not a substitute.

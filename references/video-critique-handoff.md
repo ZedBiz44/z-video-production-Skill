@@ -14,6 +14,20 @@ An independent critique must occur in a separate fresh critique session or with 
 
 Until an automatic handoff route has been built and verified, do not claim that production invoked or transferred work to another skill automatically. State that the review packet is ready, identify where the playable file is stored, and give the requester the exact separate critique request to send.
 
+## Choose Scoped Review Checkpoints
+
+Keep one production owner and one designated independent reviewer per video. The VA or coordinator carries the review packet and findings between them. The reviewer uses the approved brief, identifies material defects, and protects approved elements; the reviewer does not become a second producer or authorize new spending or creative direction.
+
+For training, recurring presenters, or work where an early error would multiply generation cost, use these checkpoints when they reduce a real risk:
+
+- **First playable proof:** Before generating the remaining dependent clips, request a focused critique of the existing presenter proof for identity, framing, pronunciation, audible quality, and lip-sync. State the exact clip and coverage. Passing a short proof does not approve the whole video. Reuse a passing source when it already meets final requirements; do not regenerate it simply because it was called a proof.
+- **Complete Review Draft:** Obtain the required independent critique of the complete playable video against the approved brief and source assets.
+- **Corrected export:** Recheck prior material findings on the actual revised video and any material defects introduced by the changes. Skip an unnecessary correction round when the first draft passes; retain the final-export checks below.
+
+When a reference must first be understood, use `z-video-analysis` before the dependent planning or creative comparison. This is a conditional preparation step, not a mandatory extra analysis at every checkpoint. Do not claim either skill reviewed motion or audio that the available tools did not inspect. Keep any unverified requirement open and name the required human or tool check.
+
+For paired comparison tests, use the same brief, protected assets, and review criteria. Record an independent initial verdict for each version before making the cross-version comparison. Keep review notes and revisions in the existing project folder and identify the exact version in every handoff.
+
 ## Prepare The Review Packet
 
 Send the actual complete playable **Review Draft**, not a path, render log, thumbnail, description, or selected still frames. Supply the most useful available information without delaying an ordinary review:
