@@ -1,5 +1,7 @@
 # Z Video Production
 
+This repository also contains the ZedBiz-owned [`z-video-creative-direction`](companion-skills/z-video-creative-direction/) companion skill. Its current release implements Level One creative direction for focused 15–30 second attention reels.
+
 This repository is the technical source of truth for `z-video-production`, a decision framework for planning, creating, editing, reviewing, and delivering video with the lightest reliable workflow.
 
 ## When to Use This Skill

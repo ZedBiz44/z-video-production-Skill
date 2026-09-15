@@ -1,5 +1,17 @@
 # Z Video Production Test Prompts
 
+## Creative Direction Handoff
+
+**Prompt:** “The topic is approved, but this 25-second reel has seven tips and no strong hook. Make the final video.”
+
+**Expected behavior:** Use `z-video-creative-direction` first when available to compress the message into one hook, one useful point, one CTA, performance direction, and a few visual beats. Then produce from the approved packet without expanding it back into a long treatment.
+
+## Generated Clip Editing
+
+**Prompt:** “The provider returned a ten-second clip with two strong seconds, a broken hand at the start, and a dead hold at the end. Use it in the reel.”
+
+**Expected behavior:** Treat it as source material, trim to the usable moment, consider a cutaway or alternate shot for continuity, and do not preserve the whole provider duration.
+
 Use fresh sessions. Do not tell the test agent which rules are expected.
 
 ## Positive: Audio-Led Multi-Scene Video

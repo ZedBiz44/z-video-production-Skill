@@ -9,6 +9,8 @@ Make the requested video without adding process the job does not need. Treat thi
 
 Use this skill for video planning, generation, editing, assembly, revision, technical inspection, or delivery. Do not use it for an independent creative-quality verdict, a successful-video breakdown, or a reference comparison. Route those requests to `z-video-critique` when it is available. Do not use this skill for standalone audio, still images, logos, or publishing unless that work is part of the video assignment.
 
+When an approved topic or offer still needs a focused hook, short spoken script, performance direction, or visual beats, use `z-video-creative-direction` first when it is available. Creative direction decides what the video should say, feel like, and show; production decides how to make it with the available tools.
+
 ## Choose The Lightest Reliable Route
 
 - Start from the user's actual outcome, source material, constraints, and definition of done. Clarify only missing information that would materially change the result.
@@ -16,6 +18,7 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Use the user's requested product or provider when feasible. Otherwise choose from tools that are genuinely available in the current runtime.
 - Before paid generation, verify the callable route, required inputs, current limits, and material estimated cost. Inspect the live model schema when the provider exposes or requires one. Do not confuse documented capability with a working connection.
 - A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, editable sources, or a companion critique only when their value justifies the effort.
+- For a 15–30 second attention reel, prefer the Level One creative packet: one hard hook, one useful trust point, one call to action, a short performance map, and a few visual beats. Do not turn a fast reel into a long treatment or force several lessons into it.
 
 ## Route Analysis And Independent Critique
 
@@ -58,6 +61,15 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Treat generated video as source material rather than a finished branded edit when exact text, consistent captions, multiple scenes, or future revisions matter.
 - Read [Remotion production guidance](references/remotion-production.md) for an audio-led multi-scene edit or material Remotion revision.
 
+## Treat Generated Clips As Source Material
+
+- Distinguish a scene from a shot. One scene may contain several short shots, crops, inserts, or cutaways.
+- A provider's 8–12 second output does not have to remain an 8–12 second final shot. Keep only the strongest usable moments; a final edit may use 1–3 seconds from a longer generation.
+- Trim unstable openings, broken hands or faces, dead holds, weak endings, unwanted text, and model drift. Cut on useful motion when it improves flow.
+- Use a relevant cutaway, screenshot, graphic, reaction, or B-roll beat to hide a weak visual moment or refresh attention. Do not use B-roll as random decoration.
+- When correcting generated motion, change one important variable at a time so the producer can tell what solved or worsened the result.
+- Keep generation prompts concise: the action or story beat, the camera behavior, and the intended emotion. Add more detail only when it controls a known failure.
+
 ## Preserve What Should Not Change
 
 - Keep approved audio or visual assets stable when changing an unrelated layer. Do not silently change an approved script, timing, voice, identity, offer, call to action, brand treatment, provider, duration, aspect ratio, or delivery format. Revise the smallest part that solves the problem.
@@ -95,5 +107,6 @@ Use this skill for video planning, generation, editing, assembly, revision, tech
 - Run the production technical inspection on the exact final export after creative review. Rendering, compression, cropping, caption generation, and final audio mixing can introduce failures that were absent from the Review Draft.
 - Report and attach the actual output file when the channel supports attachments, whether it is a Working Draft, Review Draft, proposed Approved Master, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
+- Use the lowest output resolution that is approved and adequate for the current proof, platform, and audience. Do not hard-code 720p or 1080p as a permanent rule; the controlling brief decides. Re-render at a higher resolution only when the expected use or visible quality justifies the extra cost.
 
 

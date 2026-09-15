@@ -28,6 +28,9 @@ Use this reference when Remotion is the editable assembly or revision system. Th
 - Remove or mute audio embedded in returned scene clips before final mixing.
 - Keep music and effects on separate layers and below the narration.
 - Add exact text and branding as editable Remotion layers, never as instructions for a generative video model.
+- Treat each generated clip as a source bin, not a required full-length shot. Trim to the best frames, remove unstable starts and endings, and use multiple short shots inside one narrative scene when that creates better rhythm.
+- Cut on purposeful movement when useful. Use cutaways, screenshots, graphics, reactions, or B-roll to cover weak generated frames and refresh attention without breaking the message.
+- Establish the mood with the approved performance and score direction before polishing every effect. Add final sound effects and detailed audio punctuation after the picture cut is stable.
 
 ## Revise The Smallest Layer
 
@@ -41,6 +44,7 @@ Use this reference when Remotion is the editable assembly or revision system. Th
 - Render a low-cost proof before committing to a final client-facing export when the edit is complex or expensive.
 - Review the beginning, every scene change, captions, audio synchronization, identity, exact text, and ending.
 - Validate the final video and audio streams with FFmpeg or FFprobe.
+- Use the approved proof resolution. A 720p draft may be the sensible low-cost choice for a current social test, but it is not an evergreen final-output rule.
 - Save the editable Remotion project in `Assembly/` and the versioned MP4 in `Proofs/` or `Final/` within the project's **Video-Creation** Shared Drive folder: https://drive.google.com/drive/folders/0AAlVr-SRjSeQUk9PVA.
 - Render and inspect from local working storage when practical, then upload and verify the retained files in the Shared Drive. Do not use a temporary local path as the final handoff location.
 - Attach the playable MP4 through the conversation channel. A path, provider URL, or render log alone is not delivery.

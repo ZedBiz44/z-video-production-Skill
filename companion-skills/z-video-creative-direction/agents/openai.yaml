@@ -1,0 +1,4 @@
+interface:
+  display_name: "Z Video Creative Direction"
+  short_description: "Focus a short reel into one hook, one point, and one CTA."
+  default_prompt: "Use $z-video-creative-direction to create a Level One packet for this 15–30 second video, then hand it to video production."
