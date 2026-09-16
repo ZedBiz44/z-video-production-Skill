@@ -10,46 +10,51 @@
 - Desired customer action:
 - Presenter or character:
 - Tone:
-- Required assets or restrictions:
+- Required facts, assets, claims, or restrictions:
 
-## Creative Core
+## Hook Work
 
 - Chosen hook:
-- Hook alternative A:
-- Hook alternative B:
-- One useful trust or authority point:
-- Call to action:
+- Why it should stop this viewer:
+- Opening visual:
+- Backup hook A:
+- Backup hook B:
+- Hooks rejected and why:
 
-## Spoken Script
+## Spoken Script And Timing
 
-[Complete spoken script]
+- Estimated or tested runtime:
+- Complete spoken script:
 
 ## Performance Map
 
-- Opening energy:
-- Emphasis or pace changes:
+- Opening emotion and energy:
+- Pace changes:
+- Words to emphasize:
 - Important pause or reaction:
-- Ending energy:
+- Ending energy and expression:
+- Targeted alternate take, if needed:
 
-## Visual Beats
+## Scene And Shot Plan
 
-- Beat 1 — time/purpose/visual:
-- Beat 2 — time/purpose/visual:
-- Beat 3 — time/purpose/visual:
-- Beat 4 — optional:
-- Beat 5 — optional:
+| Time | Scene and purpose | Shot or visual | Why this shot exists | Source route | Asset or reference | Source-audio handling |
+|---|---|---|---|---|---|---|
+| | | | | | | |
 
 ## Exact Editable Elements
 
 - On-screen words:
+- Captions:
 - Logo or brand assets:
 - URL, offer, price, or customer action:
 
 ## Production Handoff
 
 - Approved source assets:
-- B-roll, cutaway, screenshot, or graphic ideas and each one's job:
-- Audio route or approved master requirement:
+- Narration route or approved master requirement:
 - Protected elements:
-- Paid or rights-sensitive ideas needing approval:
+- Paid or rights-sensitive work needing approval:
+- Cutaways planned for weak source frames:
 - Future-video ideas removed from this reel:
+- Approval owner:
+

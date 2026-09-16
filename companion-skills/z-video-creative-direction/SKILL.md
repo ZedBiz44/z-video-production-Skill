@@ -1,83 +1,130 @@
 ---
 name: z-video-creative-direction
-description: "Turn a short-video topic or offer into a focused hook, script, performance direction, visual beats, and production handoff."
+description: "Turn an approved short-video topic into strong hooks, a focused script, human performance, scenes, shots, tool choices, and a production handoff."
 ---
 
 # Z Video Creative Direction
 
-Turn an approved topic, offer, or message into a small creative packet that `z-video-production` can produce. This skill decides what the short video should say, feel like, and show. It does not generate media, edit video, spend credits, or publish.
+Turn an approved topic, offer, or message into a production-ready plan for a short video. Decide what the video should say, how it should sound, what the viewer should see, and which production route should create each source shot.
 
-The current executable workflow is **Level One: Fast Attention Reel** for a roughly 15–30 second video. Levels Two and Three are future scope and must not be improvised from this package.
+The current workflow is **Level One: Fast Attention Reel** for a roughly 15–30 second video. Levels Two and Three are future scope. Do not pretend they are implemented.
+
+This skill prepares the creative packet. `z-video-production` owns generation, assembly, checking, storage, and delivery. `z-video-critique` owns the independent verdict on the playable video.
 
 ## Use This Skill When
 
-- a short video needs a stronger hook, tighter script, more human performance, or clearer visual direction;
-- the topic is approved but the producer would otherwise invent the creative plan while generating media;
-- a script is cramming several lessons into one short reel; or
-- `z-video-production` needs a compact creative handoff before production starts.
+- a short video starts from a topic, offer, lesson, or rough idea;
+- the hook, script, character performance, scenes, shots, or source-media choices need direction;
+- a short script contains too many points; or
+- production needs a clear plan before paid generation begins.
 
-Do not use it to critique a finished video, analyze a reference video, create standalone graphics or audio, run provider jobs, assemble a timeline, or publish.
+Do not use it to critique a finished video, analyze a reference video, create standalone graphics or audio, run paid jobs, render a final timeline, or publish.
 
-## Confirm The Small Brief
+## Create The Level One Direction
 
-Confirm or reasonably derive only what changes the result:
+### Define One Job
 
-- audience and platform;
-- one topic or problem;
-- one useful promise, takeaway, or belief shift;
-- one desired customer action;
-- venture, offer, presenter or character, tone, required assets, and hard restrictions;
-- target runtime and orientation.
+Confirm or reasonably derive:
 
-Ask one concise question only when a missing answer would materially change the direction. Do not turn a fast reel into a long intake interview.
+- the target viewer;
+- the viewer's immediate problem, desire, mistake, or tension;
+- the single belief, lesson, or action the video should leave behind;
+- the desired next action;
+- the brand, presenter or character, tone, platform, orientation, and target runtime;
+- required facts, assets, claims, and restrictions.
 
-## Enforce One Video, One Job
+Write the one-video job in one sentence. If it needs “and” to join different lessons, select the strongest lesson and move the rest to a future-video list.
 
-- Choose one main message. Do not squeeze five to eight tips, features, or claims into a 15–30 second reel.
-- Write one strong hook, one useful trust-building point, and one clear call to action.
-- If the source contains several good ideas, select the strongest one and list the rest as future-video ideas. Do not bury them in the current script.
-- Make the hook specific enough to stop the intended viewer. A generic question is not strong merely because it is a question.
-- Make the middle earn trust with a useful explanation, contrast, example, proof point, or practical action—not a pile of claims.
-- Make the call to action the logical next step. Do not introduce a new subject at the end.
+### Generate And Select The Hook
 
-## Direct A Human Performance
+- Ask the available language model for several genuinely different hook approaches, not minor rewrites of one sentence.
+- Include direct-problem, consequence, contrast, curiosity, challenge, confession, demonstration, and visually led approaches when they fit.
+- Reject hooks that are broad, familiar, slow, unsupported, misleading, or disconnected from the payoff.
+- Score the best candidates for viewer relevance, stopping power, clarity, credibility, visual potential, and payoff.
+- Keep the strongest hook and up to two backups.
 
-- Write for speech, not a report. Use natural contractions, varied sentence length, clean emphasis, and words the character would actually say.
-- Add a short performance map: where to speed up, slow down, pause, punch a word, show frustration, smile, or change energy.
-- Keep the character's established personality. Do not create a new personality package for every reel.
-- Read the script aloud or time a proof. Tighten the words before production instead of forcing rushed narration later.
-- When a line needs more life, request a targeted alternate take or short performance block, then retain one continuous approved narration master for downstream timing.
+Read [the hook, script, performance, and visual workflow](references/hook-script-and-visual-workflow.md) for the exact method, reusable AI prompts, and quality tests.
 
-## Plan Only The Visuals That Matter
+### Write And Time The Script
 
-- Prefer the presenter or character in the opening when that is the clearest hook. B-roll may open only when it is the stronger hook.
-- Use a few purposeful visual or framing changes rather than a detailed cinematic shot plan.
-- Give each B-roll or cutaway at least one useful job: prove or clarify the point, show it faster, intensify emotion, refresh attention, break monotony, improve rhythm, or add relevant human personality.
-- A mundane but relevant action—such as sipping coffee or reacting to a bad review—can work when it resets attention and fits the message.
-- Separate a **scene** from a **shot**. One short scene may use several brief shots. A generated 8–12 second clip is source material; the final edit may use only its best 1–3 seconds.
-- Prefer real screenshots, recordings, owned media, approved graphics, or licensed footage when they are more believable than generated footage.
-- Keep exact words, logos, prices, URLs, and calls to action in editable production layers.
+- Build one continuous spoken message: hook, useful middle, and call to action.
+- Make the middle earn trust through one explanation, contrast, example, proof point, or practical action.
+- Make the ending the logical next step. Do not introduce another lesson.
+- Write for natural speech, not a brochure. Use contractions, varied sentence lengths, and words the character would actually say.
+- Read it aloud or create a no-spend timing proof. Shorten the script when it runs long; do not solve an overloaded script by rushing the voice.
+- Confirm that the payoff answers or closes the hook.
 
-## Create The Level One Packet
+### Direct The Performance
 
-Use [the Level One template](assets/level-one-creative-brief.md). Keep the packet short and include:
+- Define the opening emotion and energy.
+- Mark only the meaningful pace, pause, emphasis, facial-reaction, or energy changes.
+- Keep the character's established personality.
+- Request a targeted alternate take when one important line is flat.
+- Preserve one continuous approved narration master when narration controls timing or lip-sync.
 
-- target viewer, one-video job, runtime, orientation, and desired action;
-- the chosen hook and up to two unused hook alternatives;
-- the complete spoken script;
-- a short performance map;
-- three to five visual beats, not a bloated shot document;
-- B-roll, cutaway, screenshot, or graphic ideas and the job each one performs;
-- exact on-screen text and call to action;
-- approved assets, protected elements, risks, and restrictions; and
-- future-video ideas removed from this reel.
+### Turn The Script Into Scenes And Shots
 
-## Handoff And Stop Rules
+- Create scenes from changes in story purpose, place, time, or meaningful action.
+- Create shots from camera views or visual pieces used inside a scene.
+- Give every scene a job such as hook, explanation, proof, demonstration, emotional change, or call to action.
+- Give every shot a reason: show the speaker, prove or clarify, show faster, intensify emotion, refresh attention, break monotony, improve rhythm, or add relevant personality.
+- Use the presenter or character as an anchor when appropriate, but avoid leaving one unchanged face on screen for the full video.
+- Treat generated clips as source material. An 8–12 second provider clip may supply only one strong 1–3 second shot.
+- Plan cutaways over weak mouth movement, awkward hands, dead holds, or other unusable frames.
+- Keep exact words, logos, prices, URLs, screenshots, and calls to action in editable production layers.
 
-- Hand the approved packet to `z-video-production`. Production chooses the available tools, creates media, assembles, checks, stores, and delivers the video.
-- Use `z-audio-production` when an approved reusable narration master is required. Use `z-graphic-production` when a new still asset must be created. Use `z-video-critique` for the independent finished-video verdict.
-- Do not select a paid provider or authorize spending. Flag media ideas that may cost credits so production can perform its normal approval check.
-- Stop if the offer, required claim, brand identity, rights, customer action, or approval owner is materially unresolved.
-- Complete only when the packet is focused enough that production does not have to invent the message while generating footage.
+### Choose The Source Route For Every Shot
 
-Read [Level One guidance and future levels](references/level-one-and-roadmap.md) when the input is overloaded, the hook is weak, or the request may not belong in Level One.
+For each planned shot, choose the lightest route that creates the required result:
+
+- talking avatar or lip-sync;
+- generated non-speaking motion;
+- real footage, screenshot, or screen recording;
+- generated or designed still image;
+- editable motion graphic or text treatment; or
+- existing approved or licensed media.
+
+Do not use a talking-avatar provider to create material that a screenshot, real clip, still image, simple motion graphic, or general video generator can make more cheaply and reliably.
+
+Read [the ZedBiz source-tool routing guide](references/source-tool-routing.md) before recommending Percify, native video generation, image generation, Remotion, FFmpeg, or another available tool. Recommend a provider only when its route is actually callable. Flag expected paid work for production's normal cost check.
+
+### Build The Production Handoff
+
+Use [the Level One template](assets/level-one-creative-brief.md). Include:
+
+- the small brief and one-video job;
+- chosen hook and up to two backups;
+- complete timed script;
+- performance map;
+- scene and shot plan with timing, purpose, visual, source route, and source-audio handling;
+- exact editable text and brand elements;
+- approved assets and protected elements;
+- cost, rights, identity, and approval flags; and
+- useful ideas removed to future videos.
+
+## Quality Check Before Handoff
+
+Confirm:
+
+- the intended viewer understands the problem or tension immediately;
+- the video makes one main point;
+- the middle earns attention instead of listing claims;
+- the ending follows naturally;
+- the script fits the target runtime at a human pace;
+- the performance has planned changes in energy, pace, emphasis, or emotion;
+- the shot plan provides enough visual change without random decoration;
+- each source route is appropriate and avoids unnecessary paid generation;
+- production can begin without inventing the message or guessing what each shot should do.
+
+## Handoff, Stop, And Completion Rules
+
+- Hand the approved packet to `z-video-production`.
+- Use `z-audio-production` when an approved reusable narration master is required.
+- Use `z-graphic-production` for purpose-built still assets and `z-creative-asset-critique` to review important still assets.
+- Use `z-video-critique` only on the actual complete playable video.
+- Stop if the offer, claim, identity, rights, customer action, approval owner, or meaningful new cost is unresolved.
+- Do not run paid generation, spend credits, publish, or claim that an unrendered plan is a finished video.
+- Complete creative direction only when the approved packet is focused, timed, visually actionable, and clear enough for production to execute without a meeting.
+
+Read [Level One guidance and future levels](references/level-one-and-roadmap.md) when the request may exceed Level One.
+
