@@ -25,7 +25,7 @@ Use this reference when Remotion is the editable assembly or revision system. Th
 - Set the composition timing from the approved narration rather than guessing scene duration first.
 - Keep the full approved narration on the final timeline.
 - Use scene extracts only to drive talking-avatar or lip-sync generation.
-- Remove or mute audio embedded in returned scene clips before final mixing.
+- When approved independent narration replaces generated speech, remove or mute that conflicting speech before final mixing. Preserve approved native dialogue when it is the chosen performance; do not replace or mute it merely because the clip enters Remotion.
 - Keep music and effects on separate layers and below the narration.
 - Add exact text and branding as editable Remotion layers, never as instructions for a generative video model.
 - Treat each generated clip as a source bin, not a required full-length shot. Trim to the best frames, remove unstable starts and endings, and use multiple short shots inside one narrative scene when that creates better rhythm.
@@ -41,6 +41,7 @@ Use this reference when Remotion is the editable assembly or revision system. Th
 
 ## Proof And Delivery
 
+- Check installed package versions and read the current official guidance for the feature being used. Use a bounded render worker count on a shared host. Follow [rendering and delivery recovery](render-delivery.md) for resource failures, audio joins and attachment-size limits.
 - Render a low-cost proof before committing to a final client-facing export when the edit is complex or expensive.
 - Review the beginning, every scene change, captions, audio synchronization, identity, exact text, and ending.
 - Validate the final video and audio streams with FFmpeg or FFprobe.

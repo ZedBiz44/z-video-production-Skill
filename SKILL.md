@@ -17,6 +17,9 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 - Choose the simplest suitable combination of generation, recording, stock or owned media, editing, assembly, and inspection.
 - Use the user's requested product or provider when feasible. Otherwise choose from tools that are genuinely available in the current runtime.
 - Before paid generation, verify the callable route, required inputs, current limits, and material estimated cost. Inspect the live model schema when the provider exposes or requires one. Do not confuse documented capability with a working connection.
+- Before declaring a model unavailable, check the relevant connected providers' live video catalogs. A static inventory or general model list is not exhaustive. Resolve the exact requested version; do not apply another version's limits. Use [provider discovery and generation guidance](references/provider-generation.md) for model selection, references, native dialogue, costs, continuation, or recovery.
+- Preserve a one-generation request when supported. One generation may include several camera cuts; it does not mean one unbroken shot. Do not add separate narration, lip-sync, or assembly unless the result needs it.
+- For paid work, quote the complete requested deliverable and check the available balance: all clips, reference inputs, voice work, lip-sync and required finishing. Keep estimated, charged, refunded and unverified costs distinct; report generated-minute and finished-minute rates separately when requested. Existing approval applies within its scope and total ceiling.
 - A quick clip may need only generation, a sensible review, and delivery. Add planning, records, proofs, editable sources, or a companion critique only when their value justifies the effort.
 - For a 15–30 second attention reel, prefer the Level One creative packet: one hard hook, one useful trust point, one call to action, a short performance map, and a few visual beats. Do not turn a fast reel into a long treatment or force several lessons into it.
 
@@ -47,11 +50,12 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 
 ## Use Audio First When Timing Or Voice Matters
 
+- Choose the audio method before spending: native dialogue for an appropriate one-off scene; approved independent narration for exact repeatable voices, controlled wording, or lip-sync work. If a character will recur, establish and save the approved appearance, voice route, settings and sample takes first. A native generated voice is not automatically a reusable voice ID.
 - Lock the spoken script before producing narration, lip-sync, captions, or final scene timing.
 - Use `z-audio-production` to create the full approved dry narration when voice identity, exact wording, performance, or repeatability matters.
 - Treat that full narration master as the final timing and performance source. Cut exact scene extracts from it; do not generate unrelated scene narrations that can drift or overlap.
 - Give a talking-avatar or lip-sync route the exact scene extract when it requires audio. B-roll does not need to speak.
-- Do not get stuck trying to force a video provider to return a silent clip. Generate the usable visual clip, then remove or mute its returned audio during assembly. Use the approved narration master in the final mix.
+- Preserve approved native dialogue and its timing. Only remove or mute generated speech when replacing it with approved independent narration. Do not get stuck forcing a provider to return a silent clip when muting unwanted audio during assembly solves the problem.
 
 ## Use Remotion And FFmpeg Deliberately
 
@@ -60,6 +64,7 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 - Use FFmpeg for practical media preparation and inspection such as extracting or muting audio, trimming, conversion, concatenation when simple, frame capture, and final stream validation.
 - Treat generated video as source material rather than a finished branded edit when exact text, consistent captions, multiple scenes, or future revisions matter.
 - Read [Remotion production guidance](references/remotion-production.md) for an audio-led multi-scene edit or material Remotion revision.
+- Before using a new feature, check the installed Remotion packages and actual FFmpeg binary/build capabilities. Use [rendering and delivery recovery](references/render-delivery.md) for constrained rendering, audio joins, file-size limits and final-export checks. Software upgrades require the applicable authorization; a production request alone is not a fleet-upgrade instruction.
 
 ## Treat Generated Clips As Source Material
 
@@ -102,6 +107,7 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 ## Finish Against The Request
 
 - Inspect the actual completed render across its full timeline using playback, video analysis, or an equivalent visual-and-audio review. Metadata-only inspection does not prove the video is good.
+- For dialogue, check actual spoken words, speaker assignment, voice and appearance continuity, complete ending, natural pauses and sound across cuts. Record sampled analysis coverage; do not claim precise lip-sync verification from metadata, still frames or sampled model review alone.
 - Confirm it opens, plays, satisfies the requested content and format, and has no obvious visual, audio, timing, freeze, corruption, or truncation failure. Check delivery-specific details such as duration, aspect ratio, caption accuracy and synchronization, identity, brand treatment, text readability, safe areas, or platform compatibility when they matter.
 - Treat a production review as a safeguard, not a substitute for the independent creative verdict where the companion critique is required. After a critique finding, apply only the stated correction, render a new complete playable version, and return it for targeted recheck. Do not reopen settled preferences or mark unresolved work ready because a normal correction limit is reached.
 - Run the production technical inspection on the exact final export after creative review. Rendering, compression, cropping, caption generation, and final audio mixing can introduce failures that were absent from the Review Draft.

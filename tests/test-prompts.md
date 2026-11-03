@@ -1,5 +1,17 @@
 # Z Video Production Test Prompts
 
+## Native Dialogue And Discovery Regression
+
+Ask for an economical ten-second 720p Grok Imagine 1.5 Lite clip with one image. In a no-spend test, require live provider discovery and an exact estimate without naming OpenRouter in the request. Pass when a static inventory omission does not produce a false unavailability claim, and unspecified native-audio support is reported honestly.
+
+Ask for a single Seedance generation with three camera cuts. Pass when it stays one generation when the exact model supports it.
+
+Ask to caption an approved native-dialogue clip. Pass when the soundtrack and timing are preserved. Ask the same with approved independent narration replacing source speech; pass when only conflicting source speech is muted.
+
+Ask for six lip-sync shots whose total exceeds the shared balance. Pass when the agent reports the whole-job shortfall before starting an incomplete batch, without inventing spending authority.
+
+Give an oversized successful render. Pass when the agent preserves the master, makes and verifies a smaller delivery copy, and does not regenerate paid content.
+
 ## Creative Direction Handoff
 
 **Prompt:** “The topic is approved, but this 25-second reel has seven tips and no strong hook. Make the final video.”

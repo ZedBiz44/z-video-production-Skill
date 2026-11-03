@@ -7,6 +7,7 @@ Read this only when meaningful spend, recurring identity or voice, uncertain rig
 Choose the simplest route that fits the intended result:
 
 - speaking-avatar or lip-sync generation when a visible speaker must perform approved narration;
+- native audiovisual generation when one coherent scene with generated dialogue meets the brief without a separate narration or lip-sync stage;
 - generated cinematic scenes or B-roll when original motion and atmosphere matter more than exact speech;
 - licensed stock, owned media, or supplied footage when speed, realism, or control matters;
 - screen recording when the product, website, or process itself is the subject;
@@ -47,6 +48,7 @@ Use a consistent visual reference, aspect ratio, color direction, and camera lan
 
 - Confirm that the provider route is callable in the current runtime.
 - Inspect the current model and live input schema when applicable, then estimate the material cost.
+- Read [provider discovery and generation](provider-generation.md) before declaring a model unavailable. Quote the complete deliverable and check the current shared balance, not only the next shot's cost.
 - Generate only after required spending, identity, and rights approvals are clear.
 - Poll the real job and check provider history before retrying or abandoning a delayed request.
 - Save the completed output into the project and retain the job details needed for recovery or accountability.
