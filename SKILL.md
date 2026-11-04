@@ -48,6 +48,13 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 - Local agent or VPS storage is temporary working space. Render and inspect locally when practical, then upload retained inputs, editable sources, proofs, and final files to the Shared Drive and verify them there.
 - If the venture or project folder does not exist, create it under the fixed Shared Drive root when ordinary folder creation is authorized. Stop if the correct venture, permissions, or destination is unclear.
 
+## Close Out Local Working Files
+
+- Use a dedicated scratch folder for each job and keep a list of the files you create for temporary use.
+- At closeout, open the retained deliverables and any editable sources, inputs and evidence needed for revision from the Shared Production Drive. Check that review, revision and handoff work has finished.
+- Remove only this job’s verified disposable downloads, extracted frames and test renders from its scratch folder. Keep unique files, active review files and anything with an uncertain owner or retained copy. Leave shared folders, backups and application-managed storage alone.
+- Report what was cleared and what remains for follow-up. If a retained copy cannot be verified, keep the local file.
+
 ## Use Audio First When Timing Or Voice Matters
 
 - Choose the audio method before spending: native dialogue for an appropriate one-off scene; approved independent narration for exact repeatable voices, controlled wording, or lip-sync work. If a character will recur, establish and save the approved appearance, voice route, settings and sample takes first. A native generated voice is not automatically a reusable voice ID.
@@ -114,5 +121,3 @@ When an approved topic or offer still needs a focused hook, short spoken script,
 - Report and attach the actual output file when the channel supports attachments, whether it is a Working Draft, Review Draft, proposed Approved Master, or approved final, meaningful cost, and any unresolved limitation. Include the saved project location, provider, model, and job ID when they materially help recovery or accountability. A delivery attempt without a playable file or confirmed attachment is not complete.
 - Do not create a manifest or formal completion report unless it helps this particular job or the user requests it.
 - Use the lowest output resolution that is approved and adequate for the current proof, platform, and audience. Do not hard-code 720p or 1080p as a permanent rule; the controlling brief decides. Re-render at a higher resolution only when the expected use or visible quality justifies the extra cost.
-
-
